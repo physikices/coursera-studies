@@ -1,0 +1,22 @@
+/*Paleta de Cores 
+#E5ECE9 light
+#D6D1CD medium
+#969A97 dark
+
+#F90093 pink light
+#C60F7B pink dark
+*/
+
+body {
+    background-color: #E5ECE9;
+}
+.bg-primary{
+    background-color: #F90093
+}
+#logo-text {
+    color: white;
+}
+#collapsable-nav a{
+    color: white;
+    background-color: #C60F7B;
+}
