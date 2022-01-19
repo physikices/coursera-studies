@@ -10,13 +10,59 @@
 body {
     background-color: #E5ECE9;
 }
+#header-nav {
+    background-color: #F90093;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 10px 5px 10px 1px #969A97;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+  
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
 .bg-primary{
     background-color: #F90093
 }
 #logo-text {
-    color: white;
+    color: #E5ECE9;
+    font-size: 32px;
+    
 }
 #collapsable-nav a{
-    color: white;
+    color: #E5ECE9;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #E5ECE9;
+    font-size: 1.1em;
+}
+#nav-list a:hover {
     background-color: #C60F7B;
+}
+#title-page {
+    margin-top: 150px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #E5ECE9;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+h1.text-center{
+    color: #969A97;
+}
+.jumbotron {
+    background-color: #D6D1CD;
+    box-shadow: 10px 2.5px 10px 1px #969A97;
+    color: #C60F7B; 
+}
+.jumbotron p{
+    font-weight: 400;
 }
